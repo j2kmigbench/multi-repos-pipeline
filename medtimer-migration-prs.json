@@ -1,0 +1,336 @@
+{
+  "repo": "Futsch1/medTimer",
+  "pair": "java-kotlin",
+  "total_commits": 55,
+  "total_prs": 21,
+  "prs": [
+    {
+      "pr_number": 392,
+      "n_commits": 1,
+      "commit_shas_abbrev": [
+        "9dafc28055"
+      ],
+      "date_range": [
+        "2024-12-20",
+        "2024-12-20"
+      ],
+      "total_files_touched": 1,
+      "base_sha_full": "cf6377f00857cfa1581befb0c83b098ca7a144a0",
+      "head_sha_full": "0d916779ec4adf2a9911f184be8b55e66b128d50"
+    },
+    {
+      "pr_number": 431,
+      "n_commits": 1,
+      "commit_shas_abbrev": [
+        "ef661f6755"
+      ],
+      "date_range": [
+        "2025-01-16",
+        "2025-01-16"
+      ],
+      "total_files_touched": 1,
+      "base_sha_full": "29327edeb7cb98a65de97a9be2add96a2ab5a11e",
+      "head_sha_full": "a2ffa51821d052ea2215b864c7ae8af9769894f9"
+    },
+    {
+      "pr_number": 438,
+      "n_commits": 1,
+      "commit_shas_abbrev": [
+        "ba8a80e8f9"
+      ],
+      "date_range": [
+        "2025-01-19",
+        "2025-01-19"
+      ],
+      "total_files_touched": 1,
+      "base_sha_full": "cfcae9d25556002af97e037a294091d2924b6058",
+      "head_sha_full": "a629731d6e667d082ae1aff7d5b1460e093b1c99"
+    },
+    {
+      "pr_number": 439,
+      "n_commits": 1,
+      "commit_shas_abbrev": [
+        "f6742448d7"
+      ],
+      "date_range": [
+        "2025-01-19",
+        "2025-01-19"
+      ],
+      "total_files_touched": 1,
+      "base_sha_full": "ba8a80e8f9e24fb71f660021cdbb6fda985ba598",
+      "head_sha_full": "fd61dfc9c17da7d93110bd1678b97de79147e28f"
+    },
+    {
+      "pr_number": 473,
+      "n_commits": 1,
+      "commit_shas_abbrev": [
+        "769f417202"
+      ],
+      "date_range": [
+        "2025-02-05",
+        "2025-02-05"
+      ],
+      "total_files_touched": 1,
+      "base_sha_full": "61ae603b3995aead89e01e7c936ea9fcaa914b2c",
+      "head_sha_full": "88cabe45c8794baedc5f838b9933a1275bbc84c9"
+    },
+    {
+      "pr_number": 554,
+      "n_commits": 1,
+      "commit_shas_abbrev": [
+        "807ea1afd5"
+      ],
+      "date_range": [
+        "2025-03-23",
+        "2025-03-23"
+      ],
+      "total_files_touched": 1,
+      "base_sha_full": "764f562ff75b40285ea2f0fd41823d1f16bc5d11",
+      "head_sha_full": "496e112472ddeacabcca2267dd66b1af3c83f0fa"
+    },
+    {
+      "pr_number": 887,
+      "n_commits": 2,
+      "commit_shas_abbrev": [
+        "a42ca3ca14",
+        "b8730e6c29"
+      ],
+      "date_range": [
+        "2025-10-11",
+        "2025-10-11"
+      ],
+      "total_files_touched": 2,
+      "base_sha_full": "28240182d02c0a74878e4a357cf3c83a73175c63",
+      "head_sha_full": "ad47a853ccb33ca0adabf7f2a77c43e67ff91543"
+    },
+    {
+      "pr_number": 899,
+      "n_commits": 2,
+      "commit_shas_abbrev": [
+        "478d668a9d",
+        "5f93b1635f"
+      ],
+      "date_range": [
+        "2025-10-18",
+        "2025-10-18"
+      ],
+      "total_files_touched": 5,
+      "base_sha_full": "e31c202081c789b12e7522a3cb49427172e83efa",
+      "head_sha_full": "5222a1c4489f5a0a12e38d32d4cbdcf0c9a1cf55"
+    },
+    {
+      "pr_number": 977,
+      "n_commits": 6,
+      "commit_shas_abbrev": [
+        "09866c7fe0",
+        "8c133ff678",
+        "cf0050e76d",
+        "8d775efc08",
+        "8a18e5f56d",
+        "b761d9c27f"
+      ],
+      "date_range": [
+        "2025-11-23",
+        "2025-11-28"
+      ],
+      "total_files_touched": 9,
+      "base_sha_full": "5003675b325900555f08104fbabf6155ceee63ab",
+      "head_sha_full": "b761d9c27f17d24c74359a3ee5e4129d5ed50e7e"
+    },
+    {
+      "pr_number": 1032,
+      "n_commits": 1,
+      "commit_shas_abbrev": [
+        "37cebd5421"
+      ],
+      "date_range": [
+        "2025-12-12",
+        "2025-12-12"
+      ],
+      "total_files_touched": 1,
+      "base_sha_full": "b612d44f419e5f49a28de373baa16ee1e7ae22e2",
+      "head_sha_full": "d3a7ea1694a85eb45feda4102851c4376005c650"
+    },
+    {
+      "pr_number": 1053,
+      "n_commits": 1,
+      "commit_shas_abbrev": [
+        "2f7913a90d"
+      ],
+      "date_range": [
+        "2025-12-21",
+        "2025-12-21"
+      ],
+      "total_files_touched": 1,
+      "base_sha_full": "af00ceab80f2c39c7fa9538399def4892170758b",
+      "head_sha_full": "c63283654489fe21319cb044fef64b7ae4dc69a1"
+    },
+    {
+      "pr_number": 1060,
+      "n_commits": 1,
+      "commit_shas_abbrev": [
+        "d97770498d"
+      ],
+      "date_range": [
+        "2025-12-21",
+        "2025-12-21"
+      ],
+      "total_files_touched": 1,
+      "base_sha_full": "d0b100b995eb781685d83e09c701c7c1c37800a4",
+      "head_sha_full": "3e9a10a9b8a9269acd5e8cc812f97e3d6e5029e8"
+    },
+    {
+      "pr_number": 1061,
+      "n_commits": 1,
+      "commit_shas_abbrev": [
+        "f948977a03"
+      ],
+      "date_range": [
+        "2025-12-22",
+        "2025-12-22"
+      ],
+      "total_files_touched": 1,
+      "base_sha_full": "5277b7629484d0b1c763c3774bd7ac4c3854f3f3",
+      "head_sha_full": "2db3a54851c7028f3395de549e60aff56bf23e45"
+    },
+    {
+      "pr_number": 1071,
+      "n_commits": 1,
+      "commit_shas_abbrev": [
+        "f8265df065"
+      ],
+      "date_range": [
+        "2025-12-22",
+        "2025-12-22"
+      ],
+      "total_files_touched": 1,
+      "base_sha_full": "976e4db8f1cd4b5a003e2343b4185da78f281127",
+      "head_sha_full": "721085ceebca171fb1dde0dd7559abc188a1cdf1"
+    },
+    {
+      "pr_number": 1085,
+      "n_commits": 1,
+      "commit_shas_abbrev": [
+        "8e86ef0471"
+      ],
+      "date_range": [
+        "2026-01-01",
+        "2026-01-01"
+      ],
+      "total_files_touched": 1,
+      "base_sha_full": "34405a4780bafe3d5c02b5b0904029a2280ff9b1",
+      "head_sha_full": "8e86ef04711f5e941ddd5a288ae058d10bdd3f42"
+    },
+    {
+      "pr_number": 1149,
+      "n_commits": 4,
+      "commit_shas_abbrev": [
+        "4bd1127084",
+        "3cf78aedc1",
+        "edc7bbe782",
+        "f2867f95e6"
+      ],
+      "date_range": [
+        "2026-01-31",
+        "2026-02-01"
+      ],
+      "total_files_touched": 4,
+      "base_sha_full": "c11b3ffb12077f3727fec2c9af2a21a522ecd335",
+      "head_sha_full": "65b7e2de1ebcc5a2234813f108f3227652265716"
+    },
+    {
+      "pr_number": 1150,
+      "n_commits": 1,
+      "commit_shas_abbrev": [
+        "535a761690"
+      ],
+      "date_range": [
+        "2026-02-01",
+        "2026-02-01"
+      ],
+      "total_files_touched": 3,
+      "base_sha_full": "2229ec5de54bf9852b409fdf2479137ba85d189d",
+      "head_sha_full": "68a797a5557b30aee0d314db49509de806275bdf"
+    },
+    {
+      "pr_number": 1167,
+      "n_commits": 1,
+      "commit_shas_abbrev": [
+        "2fa631d1a2"
+      ],
+      "date_range": [
+        "2026-02-07",
+        "2026-02-07"
+      ],
+      "total_files_touched": 1,
+      "base_sha_full": "9a6441c1a27b9240250c666ed2a6f249658546d6",
+      "head_sha_full": "33cbb1945d61444fb372dd84968ac22f11f89d92"
+    },
+    {
+      "pr_number": 1182,
+      "n_commits": 2,
+      "commit_shas_abbrev": [
+        "362792f21f",
+        "ca8f1ce4ed"
+      ],
+      "date_range": [
+        "2026-02-14",
+        "2026-02-14"
+      ],
+      "total_files_touched": 2,
+      "base_sha_full": "bca5abff1b5790e365db6c66e1a4b756cae573ab",
+      "head_sha_full": "0604580593ee92e4358f94cc21a9c2f61e899259"
+    },
+    {
+      "pr_number": 1193,
+      "n_commits": 3,
+      "commit_shas_abbrev": [
+        "f1961c9496",
+        "b9e226d0a8",
+        "4477779b10"
+      ],
+      "date_range": [
+        "2026-02-17",
+        "2026-02-17"
+      ],
+      "total_files_touched": 13,
+      "base_sha_full": "c500b181d9198cd7bf333db84dad86d77b3c1845",
+      "head_sha_full": "67993952f969ecef4ba369182c7ef7a9df9803b7"
+    },
+    {
+      "pr_number": 1279,
+      "n_commits": 22,
+      "commit_shas_abbrev": [
+        "2de65ceb54",
+        "39abfe4c33",
+        "59c0a7d9b0",
+        "ab2660d40c",
+        "e804ea9d9a",
+        "bb31ed1fb5",
+        "c695413960",
+        "cd04577856",
+        "425a08fa46",
+        "76794bc617",
+        "2e954d1c44",
+        "1defc83e7e",
+        "2d1f1d289a",
+        "04116b2fac",
+        "27ec1a083c",
+        "137b8ff499",
+        "fb335e90cc",
+        "bb1babe486",
+        "1b6917752c",
+        "f23f935665",
+        "35d81fde6b",
+        "91f20819bd"
+      ],
+      "date_range": [
+        "2026-03-09",
+        "2026-03-09"
+      ],
+      "total_files_touched": 38,
+      "base_sha_full": "a83c73e406f133d9db2efb99f6cb8cebb6a1abf8",
+      "head_sha_full": "bcb387862467c2636850d64d63a6ee51b6e20871"
+    }
+  ]
+}

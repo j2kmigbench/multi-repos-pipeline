@@ -1,0 +1,5220 @@
+{
+  "prs": [
+    {
+      "pr_number": 392,
+      "base_sha_full": "cf6377f00857cfa1581befb0c83b098ca7a144a0",
+      "modified_files": [
+        {
+          "file_path": "com/futsch1/medtimer/GenerateTestData",
+          "lines_covered": 0,
+          "lines_missed": 25,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 6,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/MedicineViewModel",
+          "lines_covered": 0,
+          "lines_missed": 31,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/database/MedicineDao",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/database/MedicineRepository",
+          "lines_covered": 0,
+          "lines_missed": 57,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 6,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/AdvancedReminderSettingsFragment",
+          "lines_covered": 0,
+          "lines_missed": 126,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 38,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/EditMedicineFragment",
+          "lines_covered": 0,
+          "lines_missed": 127,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 16,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/NewReminder",
+          "lines_covered": 0,
+          "lines_missed": 81,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 16,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/remindertable/ReminderTableAdapter",
+          "lines_covered": 0,
+          "lines_missed": 51,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 14,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/statistics/CalendarEventsViewModel",
+          "lines_covered": 0,
+          "lines_missed": 73,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 42,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/widgets/WidgetLineProvider",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        }
+      ]
+    },
+    {
+      "pr_number": 431,
+      "base_sha_full": "29327edeb7cb98a65de97a9be2add96a2ab5a11e",
+      "modified_files": [
+        {
+          "file_path": "com/futsch1/medtimer/ActivityCodes",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/MainActivity",
+          "lines_covered": 0,
+          "lines_missed": 47,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 22,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/database/MedicineRoomDatabase",
+          "lines_covered": 0,
+          "lines_missed": 18,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 4,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/database/Reminder",
+          "lines_covered": 24,
+          "lines_missed": 0,
+          "line_coverage_percentage": 100.0,
+          "branches_covered": 4,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/database/ReminderEvent",
+          "lines_covered": 6,
+          "lines_missed": 0,
+          "line_coverage_percentage": 100.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/helpers/DialogHelper",
+          "lines_covered": 0,
+          "lines_missed": 20,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 2,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/AdvancedReminderSettingsFragment",
+          "lines_covered": 0,
+          "lines_missed": 113,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 34,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/LinkedReminderHandling",
+          "lines_covered": 0,
+          "lines_missed": 39,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 2,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/PeriodSettings",
+          "lines_covered": 0,
+          "lines_missed": 77,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 34,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/ReminderViewHolder",
+          "lines_covered": 0,
+          "lines_missed": 43,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 10,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/overview/ManualDose",
+          "lines_covered": 0,
+          "lines_missed": 80,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 14,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/overview/NextRemindersViewHolder",
+          "lines_covered": 0,
+          "lines_missed": 35,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 14,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/overview/VariableAmount",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/NotificationAction",
+          "lines_covered": 31,
+          "lines_missed": 1,
+          "line_coverage_percentage": 96.88,
+          "branches_covered": 9,
+          "branches_missed": 3,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/Notifications",
+          "lines_covered": 53,
+          "lines_missed": 28,
+          "line_coverage_percentage": 65.43,
+          "branches_covered": 10,
+          "branches_missed": 16,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/ReminderProcessor",
+          "lines_covered": 45,
+          "lines_missed": 36,
+          "line_coverage_percentage": 55.56,
+          "branches_covered": 4,
+          "branches_missed": 10,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/ReminderWork",
+          "lines_covered": 63,
+          "lines_missed": 1,
+          "line_coverage_percentage": 98.44,
+          "branches_covered": 19,
+          "branches_missed": 9,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        }
+      ]
+    },
+    {
+      "pr_number": 438,
+      "base_sha_full": "cfcae9d25556002af97e037a294091d2924b6058",
+      "modified_files": [
+        {
+          "file_path": "com/futsch1/medtimer/GenerateTestData",
+          "lines_covered": 0,
+          "lines_missed": 76,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 16,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/database/Converters",
+          "lines_covered": 0,
+          "lines_missed": 12,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/database/Medicine",
+          "lines_covered": 14,
+          "lines_missed": 10,
+          "line_coverage_percentage": 58.33,
+          "branches_covered": 3,
+          "branches_missed": 3,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/helpers/MedicineHelper",
+          "lines_covered": 3,
+          "lines_missed": 2,
+          "line_coverage_percentage": 60.0,
+          "branches_covered": 1,
+          "branches_missed": 3,
+          "has_corresponding_test_file": true,
+          "test_file_path": "app/src/test/java/com/futsch1/medtimer/MedicineHelperTest.kt"
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/MedicineStockFragment",
+          "lines_covered": 0,
+          "lines_missed": 49,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 4,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/Notifications",
+          "lines_covered": 57,
+          "lines_missed": 32,
+          "line_coverage_percentage": 64.04,
+          "branches_covered": 12,
+          "branches_missed": 18,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/StockHandlingWork",
+          "lines_covered": 0,
+          "lines_missed": 26,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 22,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        }
+      ]
+    },
+    {
+      "pr_number": 439,
+      "base_sha_full": "ba8a80e8f9e24fb71f660021cdbb6fda985ba598",
+      "modified_files": [
+        {
+          "file_path": "com/futsch1/medtimer/ActivityCodes",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/overview/ManualDose",
+          "lines_covered": 0,
+          "lines_missed": 80,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 14,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/overview/VariableAmount",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/NotificationAction",
+          "lines_covered": 34,
+          "lines_missed": 2,
+          "line_coverage_percentage": 94.44,
+          "branches_covered": 10,
+          "branches_missed": 4,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/ReminderProcessor",
+          "lines_covered": 45,
+          "lines_missed": 49,
+          "line_coverage_percentage": 47.87,
+          "branches_covered": 4,
+          "branches_missed": 10,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/StockHandlingWork",
+          "lines_covered": 0,
+          "lines_missed": 25,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 18,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        }
+      ]
+    },
+    {
+      "pr_number": 473,
+      "base_sha_full": "61ae603b3995aead89e01e7c936ea9fcaa914b2c",
+      "modified_files": [
+        {
+          "file_path": "com/futsch1/medtimer/GenerateTestData",
+          "lines_covered": 0,
+          "lines_missed": 76,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 16,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/MedicineViewModel",
+          "lines_covered": 0,
+          "lines_missed": 28,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/NextRemindersViewModel",
+          "lines_covered": 0,
+          "lines_missed": 5,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/OptionsMenu",
+          "lines_covered": 0,
+          "lines_missed": 105,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 10,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/ReminderSchedulerService",
+          "lines_covered": 0,
+          "lines_missed": 18,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/ScheduledReminder",
+          "lines_covered": 1,
+          "lines_missed": 0,
+          "line_coverage_percentage": 100.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/database/Converters",
+          "lines_covered": 0,
+          "lines_missed": 12,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/database/FullMedicine",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/database/JSONMedicineBackup",
+          "lines_covered": 10,
+          "lines_missed": 14,
+          "line_coverage_percentage": 41.67,
+          "branches_covered": 6,
+          "branches_missed": 10,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/database/Medicine",
+          "lines_covered": 14,
+          "lines_missed": 10,
+          "line_coverage_percentage": 58.33,
+          "branches_covered": 3,
+          "branches_missed": 3,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/database/MedicineDao",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/database/MedicineRepository",
+          "lines_covered": 0,
+          "lines_missed": 56,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 6,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/database/MedicineRoomDatabase",
+          "lines_covered": 0,
+          "lines_missed": 18,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 4,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/database/MedicineToTag",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/database/ReminderEvent",
+          "lines_covered": 6,
+          "lines_missed": 0,
+          "line_coverage_percentage": 100.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/database/Tag",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/helpers/DatabaseEntityEditFragment",
+          "lines_covered": 0,
+          "lines_missed": 48,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 10,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/helpers/IdlingListAdapter",
+          "lines_covered": 0,
+          "lines_missed": 14,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 2,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/helpers/IdlingResourcesPool",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/helpers/InitIdlingResource",
+          "lines_covered": 0,
+          "lines_missed": 17,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 4,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/EditMedicineFragment",
+          "lines_covered": 0,
+          "lines_missed": 122,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 10,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/EditMedicineMenuProvider",
+          "lines_covered": 0,
+          "lines_missed": 35,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 2,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/LinkedReminderHandling",
+          "lines_covered": 0,
+          "lines_missed": 42,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 2,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/MedicineViewAdapter",
+          "lines_covered": 0,
+          "lines_missed": 13,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 4,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/MedicineViewHolder",
+          "lines_covered": 0,
+          "lines_missed": 32,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 6,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/MedicinesFragment",
+          "lines_covered": 0,
+          "lines_missed": 66,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 4,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/MedicinesMenu",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/NewReminder",
+          "lines_covered": 0,
+          "lines_missed": 90,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 18,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/ReminderViewAdapter",
+          "lines_covered": 0,
+          "lines_missed": 13,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 8,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/tags/MedicineWithTagsViewModel",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/tags/TagDataFromMedicine",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/tags/TagDataFromPreferences",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/tags/TagDataProvider",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/tags/TagFilterStore",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/tags/TagViewHolder",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/tags/TagWithStateCollector",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/tags/TagsAdapter",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/tags/TagsFragment",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/overview/ManualDose",
+          "lines_covered": 0,
+          "lines_missed": 93,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 18,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/overview/NextReminders",
+          "lines_covered": 0,
+          "lines_missed": 79,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 16,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/overview/NextRemindersViewAdapter",
+          "lines_covered": 0,
+          "lines_missed": 15,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 12,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/overview/NextRemindersViewHolder",
+          "lines_covered": 0,
+          "lines_missed": 32,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 12,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/overview/OverviewFragment",
+          "lines_covered": 0,
+          "lines_missed": 90,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 14,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/Notifications",
+          "lines_covered": 57,
+          "lines_missed": 32,
+          "line_coverage_percentage": 64.04,
+          "branches_covered": 12,
+          "branches_missed": 18,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/ReminderWork",
+          "lines_covered": 64,
+          "lines_missed": 1,
+          "line_coverage_percentage": 98.46,
+          "branches_covered": 19,
+          "branches_missed": 9,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/RescheduleWork",
+          "lines_covered": 28,
+          "lines_missed": 34,
+          "line_coverage_percentage": 45.16,
+          "branches_covered": 3,
+          "branches_missed": 9,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/StockHandlingWork",
+          "lines_covered": 0,
+          "lines_missed": 22,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 16,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/scheduling/ReminderScheduler",
+          "lines_covered": 22,
+          "lines_missed": 1,
+          "line_coverage_percentage": 95.65,
+          "branches_covered": 9,
+          "branches_missed": 1,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/statistics/CalendarEventsViewModel",
+          "lines_covered": 0,
+          "lines_missed": 73,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 42,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/statistics/MedicinePerDayChart",
+          "lines_covered": 0,
+          "lines_missed": 115,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 28,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/statistics/StatisticsFragment",
+          "lines_covered": 0,
+          "lines_missed": 52,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 16,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/widgets/WidgetLineProvider",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        }
+      ]
+    },
+    {
+      "pr_number": 554,
+      "base_sha_full": "764f562ff75b40285ea2f0fd41823d1f16bc5d11",
+      "modified_files": [
+        {
+          "file_path": "com/futsch1/medtimer/helpers/ReminderHelper",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": true,
+          "test_file_path": "app/src/test/java/com/futsch1/medtimer/ReminderHelperTest.kt"
+        },
+        {
+          "file_path": "com/futsch1/medtimer/helpers/TimeHelper",
+          "lines_covered": 16,
+          "lines_missed": 71,
+          "line_coverage_percentage": 18.39,
+          "branches_covered": 0,
+          "branches_missed": 18,
+          "has_corresponding_test_file": true,
+          "test_file_path": "app/src/test/java/com/futsch1/medtimer/TimeHelperTest.kt"
+        },
+        {
+          "file_path": "com/futsch1/medtimer/overview/LatestRemindersViewHolder",
+          "lines_covered": 0,
+          "lines_missed": 58,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 18,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/overview/NextRemindersViewHolder",
+          "lines_covered": 0,
+          "lines_missed": 32,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 12,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/preferences/DisplaySettingsFragment",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/preferences/NotificationSettingsFragment",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/preferences/PreferencesFragment",
+          "lines_covered": 0,
+          "lines_missed": 110,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 32,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/statistics/StatisticsFragment",
+          "lines_covered": 0,
+          "lines_missed": 65,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 18,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/widgets/WidgetLineProvider",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        }
+      ]
+    },
+    {
+      "pr_number": 887,
+      "base_sha_full": "28240182d02c0a74878e4a357cf3c83a73175c63",
+      "modified_files": [
+        {
+          "file_path": "com/futsch1/medtimer/OptionsMenu",
+          "lines_covered": 0,
+          "lines_missed": 148,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 18,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/database/MedicineDao",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/database/MedicineRepository",
+          "lines_covered": 0,
+          "lines_missed": 107,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 14,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/database/MedicineRoomDatabase",
+          "lines_covered": 0,
+          "lines_missed": 24,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 4,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/database/Reminder",
+          "lines_covered": 31,
+          "lines_missed": 1,
+          "line_coverage_percentage": 96.88,
+          "branches_covered": 24,
+          "branches_missed": 20,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/exporters/Common",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/helpers/IdlingListAdapter",
+          "lines_covered": 0,
+          "lines_missed": 14,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/helpers/SummaryHelper",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/helpers/TimeHelper",
+          "lines_covered": 23,
+          "lines_missed": 79,
+          "line_coverage_percentage": 22.55,
+          "branches_covered": 4,
+          "branches_missed": 20,
+          "has_corresponding_test_file": true,
+          "test_file_path": "app/src/test/java/com/futsch1/medtimer/TimeHelperTest.kt"
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/AdvancedReminderSettingsFragment",
+          "lines_covered": 0,
+          "lines_missed": 120,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 32,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/AdvancedReminderSettingsMenuProvider",
+          "lines_covered": 0,
+          "lines_missed": 14,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/EditMedicineFragment",
+          "lines_covered": 0,
+          "lines_missed": 138,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 14,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/EstimateStockRunOutDate",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/LinkedReminderHandling",
+          "lines_covered": 0,
+          "lines_missed": 41,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 2,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/MedicineViewHolder",
+          "lines_covered": 0,
+          "lines_missed": 53,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 8,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/PeriodSettings",
+          "lines_covered": 0,
+          "lines_missed": 77,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 34,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/ReminderViewHolder",
+          "lines_covered": 0,
+          "lines_missed": 48,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 12,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/advancedSettings/AdvancedReminderPreferencesCyclicFragment",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/advancedSettings/AdvancedReminderPreferencesFragment",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/advancedSettings/AdvancedReminderPreferencesInstructionsFragment",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/advancedSettings/AdvancedReminderPreferencesIntervalType",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/advancedSettings/AdvancedReminderPreferencesRootFragment",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/advancedSettings/AdvancedReminderPreferencesStatusFragment",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/advancedSettings/AdvancedReminderSettingsMenuProvider",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/advancedSettings/EditIntervalDialog",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/advancedSettings/ReminderDataStore",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/advancedSettings/ReminderViewModel",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/editors/RemindOnDays",
+          "lines_covered": 0,
+          "lines_missed": 54,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 20,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/overview/NextReminders",
+          "lines_covered": 0,
+          "lines_missed": 33,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 4,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/RescheduleWork",
+          "lines_covered": 30,
+          "lines_missed": 38,
+          "line_coverage_percentage": 44.12,
+          "branches_covered": 4,
+          "branches_missed": 10,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/WeekendMode",
+          "lines_covered": 14,
+          "lines_missed": 0,
+          "line_coverage_percentage": 100.0,
+          "branches_covered": 6,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/scheduling/DailyIntervalScheduling",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/scheduling/IntervalScheduling",
+          "lines_covered": 31,
+          "lines_missed": 1,
+          "line_coverage_percentage": 96.88,
+          "branches_covered": 15,
+          "branches_missed": 3,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/scheduling/ReminderScheduler",
+          "lines_covered": 22,
+          "lines_missed": 1,
+          "line_coverage_percentage": 95.65,
+          "branches_covered": 9,
+          "branches_missed": 1,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/scheduling/SchedulingFactory",
+          "lines_covered": 5,
+          "lines_missed": 0,
+          "line_coverage_percentage": 100.0,
+          "branches_covered": 4,
+          "branches_missed": 1,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/scheduling/SchedulingSimulator",
+          "lines_covered": 45,
+          "lines_missed": 0,
+          "line_coverage_percentage": 100.0,
+          "branches_covered": 22,
+          "branches_missed": 2,
+          "has_corresponding_test_file": true,
+          "test_file_path": "app/src/test/java/com/futsch1/medtimer/schedulertests/SchedulingSimulatorTest.kt"
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/scheduling/WeekendModeSchedulingDecorator",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/statistics/CalendarEventsViewModel",
+          "lines_covered": 0,
+          "lines_missed": 70,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 48,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/widgets/WidgetLineProvider",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        }
+      ]
+    },
+    {
+      "pr_number": 899,
+      "base_sha_full": "e31c202081c789b12e7522a3cb49427172e83efa",
+      "modified_files": [
+        {
+          "file_path": "com/futsch1/medtimer/helpers/DatabaseEntityEditFragment",
+          "lines_covered": 0,
+          "lines_missed": 51,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 14,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/helpers/ReminderHelper",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": true,
+          "test_file_path": "app/src/test/java/com/futsch1/medtimer/ReminderHelperTest.kt"
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/EditMedicineFragment",
+          "lines_covered": 0,
+          "lines_missed": 151,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 16,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/MedicineViewAdapter",
+          "lines_covered": 0,
+          "lines_missed": 22,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 6,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/MedicineViewHolder",
+          "lines_covered": 0,
+          "lines_missed": 53,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 8,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/MedicinesFragment",
+          "lines_covered": 0,
+          "lines_missed": 75,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 8,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/MedicinesMenu",
+          "lines_covered": 0,
+          "lines_missed": 26,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 2,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/ReminderViewAdapter",
+          "lines_covered": 0,
+          "lines_missed": 15,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 2,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/ReminderViewHolder",
+          "lines_covered": 0,
+          "lines_missed": 75,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 17,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/advancedSettings/AdvancedReminderPreferencesFragment",
+          "lines_covered": 0,
+          "lines_missed": 57,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 14,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        }
+      ]
+    },
+    {
+      "pr_number": 977,
+      "base_sha_full": "5003675b325900555f08104fbabf6155ceee63ab",
+      "modified_files": [
+        {
+          "file_path": "com/futsch1/medtimer/ActivityCodes",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/Autostart",
+          "lines_covered": 0,
+          "lines_missed": 26,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 10,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/BackupManager",
+          "lines_covered": 0,
+          "lines_missed": 92,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 30,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/LogTags",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/OptionsMenu",
+          "lines_covered": 0,
+          "lines_missed": 148,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 18,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/ReminderSchedulerService",
+          "lines_covered": 0,
+          "lines_missed": 18,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/alarm/AlarmFragment",
+          "lines_covered": 0,
+          "lines_missed": 60,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 4,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/alarm/ReminderAlarmActivity",
+          "lines_covered": 0,
+          "lines_missed": 88,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 18,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/database/JSONBackup",
+          "lines_covered": 31,
+          "lines_missed": 4,
+          "line_coverage_percentage": 88.57,
+          "branches_covered": 11,
+          "branches_missed": 5,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/helpers/DialogHelper",
+          "lines_covered": 0,
+          "lines_missed": 52,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 16,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/helpers/FileHelper",
+          "lines_covered": 0,
+          "lines_missed": 30,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 6,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/overview/CustomSnooze",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/overview/VariableAmount",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/overview/actions/ReminderEventActions",
+          "lines_covered": 0,
+          "lines_missed": 43,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 4,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/overview/actions/ScheduledReminderActions",
+          "lines_covered": 0,
+          "lines_missed": 39,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 6,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/preferences/PreferencesNames",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/AllTakenWork",
+          "lines_covered": 0,
+          "lines_missed": 17,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 6,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/NotificationAction",
+          "lines_covered": 34,
+          "lines_missed": 1,
+          "line_coverage_percentage": 97.14,
+          "branches_covered": 10,
+          "branches_missed": 6,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/NotificationProcessor",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": true,
+          "test_file_path": "app/src/test/java/com/futsch1/medtimer/processortests/NotificationProcessorTest.kt"
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/Notifications",
+          "lines_covered": 18,
+          "lines_missed": 5,
+          "line_coverage_percentage": 78.26,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/PendingIntentBuilder",
+          "lines_covered": 14,
+          "lines_missed": 0,
+          "line_coverage_percentage": 100.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/ProcessNotificationWork",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/ReminderProcessor",
+          "lines_covered": 47,
+          "lines_missed": 63,
+          "line_coverage_percentage": 42.73,
+          "branches_covered": 4,
+          "branches_missed": 12,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/ReminderWork",
+          "lines_covered": 76,
+          "lines_missed": 11,
+          "line_coverage_percentage": 87.36,
+          "branches_covered": 22,
+          "branches_missed": 22,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/RepeatReminderWork",
+          "lines_covered": 18,
+          "lines_missed": 0,
+          "line_coverage_percentage": 100.0,
+          "branches_covered": 1,
+          "branches_missed": 1,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/RescheduleWork",
+          "lines_covered": 40,
+          "lines_missed": 40,
+          "line_coverage_percentage": 50.0,
+          "branches_covered": 5,
+          "branches_missed": 13,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/SkippedWorkProcess",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/SnoozeWork",
+          "lines_covered": 13,
+          "lines_missed": 0,
+          "line_coverage_percentage": 100.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/StockHandlingWork",
+          "lines_covered": 0,
+          "lines_missed": 24,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 16,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/TakenWorkProcess",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/notificationData/ProcessedNotificationData",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/notificationData/ReminderNotification",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/notificationData/ReminderNotificationData",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/notificationData/ReminderNotificationPart",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/notificationFactory/BigReminderNotificationFactory",
+          "lines_covered": 22,
+          "lines_missed": 3,
+          "line_coverage_percentage": 88.0,
+          "branches_covered": 2,
+          "branches_missed": 2,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/notificationFactory/NotificationFactory",
+          "lines_covered": 29,
+          "lines_missed": 1,
+          "line_coverage_percentage": 96.67,
+          "branches_covered": 7,
+          "branches_missed": 3,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/notificationFactory/NotificationIntentBuilder",
+          "lines_covered": 27,
+          "lines_missed": 11,
+          "line_coverage_percentage": 71.05,
+          "branches_covered": 3,
+          "branches_missed": 4,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/notificationFactory/NotificationStringBuilder",
+          "lines_covered": 23,
+          "lines_missed": 5,
+          "line_coverage_percentage": 82.14,
+          "branches_covered": 6,
+          "branches_missed": 8,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/notificationFactory/OutOfStockNotificationFactory",
+          "lines_covered": 0,
+          "lines_missed": 16,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/notificationFactory/ReminderNotificationFactory",
+          "lines_covered": 37,
+          "lines_missed": 18,
+          "line_coverage_percentage": 67.27,
+          "branches_covered": 6,
+          "branches_missed": 6,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/notificationFactory/SimpleReminderNotificationFactory",
+          "lines_covered": 0,
+          "lines_missed": 9,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        }
+      ]
+    },
+    {
+      "pr_number": 1032,
+      "base_sha_full": "b612d44f419e5f49a28de373baa16ee1e7ae22e2",
+      "modified_files": [
+        {
+          "file_path": "com/futsch1/medtimer/overview/ReminderViewHolder",
+          "lines_covered": 0,
+          "lines_missed": 64,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 20,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        }
+      ]
+    },
+    {
+      "pr_number": 1053,
+      "base_sha_full": "af00ceab80f2c39c7fa9538399def4892170758b",
+      "modified_files": [
+        {
+          "file_path": "com/futsch1/medtimer/MedicineViewModel",
+          "lines_covered": 0,
+          "lines_missed": 88,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 46,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/database/MedicineDao",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/database/MedicineRepository",
+          "lines_covered": 10,
+          "lines_missed": 101,
+          "line_coverage_percentage": 9.01,
+          "branches_covered": 0,
+          "branches_missed": 14,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/EstimateStockRunOutDate",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/MedicinesMenu",
+          "lines_covered": 0,
+          "lines_missed": 25,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 4,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/advancedSettings/ReminderDataStore",
+          "lines_covered": 0,
+          "lines_missed": 93,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 97,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/dialogs/ColorPickerDialog",
+          "lines_covered": 0,
+          "lines_missed": 26,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 2,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/overview/VariableAmount",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/NotificationProcessor",
+          "lines_covered": 38,
+          "lines_missed": 18,
+          "line_coverage_percentage": 67.86,
+          "branches_covered": 11,
+          "branches_missed": 11,
+          "has_corresponding_test_file": true,
+          "test_file_path": "app/src/test/java/com/futsch1/medtimer/processortests/NotificationProcessorTest.kt"
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/ReminderWorker",
+          "lines_covered": 56,
+          "lines_missed": 23,
+          "line_coverage_percentage": 70.89,
+          "branches_covered": 17,
+          "branches_missed": 17,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        }
+      ]
+    },
+    {
+      "pr_number": 1060,
+      "base_sha_full": "d0b100b995eb781685d83e09c701c7c1c37800a4",
+      "modified_files": [
+        {
+          "file_path": "com/futsch1/medtimer/ReminderSchedulerService",
+          "lines_covered": 0,
+          "lines_missed": 18,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/overview/OverviewEvent",
+          "lines_covered": 0,
+          "lines_missed": 15,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 24,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/widgets/LatestRemindersWidgetProvider",
+          "lines_covered": 0,
+          "lines_missed": 6,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/widgets/NextRemindersWidgetProvider",
+          "lines_covered": 0,
+          "lines_missed": 6,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/widgets/WidgetProvider",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        }
+      ]
+    },
+    {
+      "pr_number": 1061,
+      "base_sha_full": "5277b7629484d0b1c763c3774bd7ac4c3854f3f3",
+      "modified_files": [
+        {
+          "file_path": "com/futsch1/medtimer/Autostart",
+          "lines_covered": 0,
+          "lines_missed": 20,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 10,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/LogTags",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/MainActivity",
+          "lines_covered": 0,
+          "lines_missed": 97,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 38,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/ReminderWorker",
+          "lines_covered": 56,
+          "lines_missed": 23,
+          "line_coverage_percentage": 70.89,
+          "branches_covered": 17,
+          "branches_missed": 17,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/ScheduleWorker",
+          "lines_covered": 0,
+          "lines_missed": 6,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/notificationData/ReminderNotification",
+          "lines_covered": 43,
+          "lines_missed": 2,
+          "line_coverage_percentage": 95.56,
+          "branches_covered": 15,
+          "branches_missed": 5,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        }
+      ]
+    },
+    {
+      "pr_number": 1071,
+      "base_sha_full": "976e4db8f1cd4b5a003e2343b4185da78f281127",
+      "modified_files": [
+        {
+          "file_path": "com/futsch1/medtimer/overview/ManualDose",
+          "lines_covered": 0,
+          "lines_missed": 130,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 48,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/NotificationProcessor",
+          "lines_covered": 42,
+          "lines_missed": 23,
+          "line_coverage_percentage": 64.62,
+          "branches_covered": 14,
+          "branches_missed": 18,
+          "has_corresponding_test_file": true,
+          "test_file_path": "app/src/test/java/com/futsch1/medtimer/processortests/NotificationProcessorTest.kt"
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/ReminderProcessor",
+          "lines_covered": 28,
+          "lines_missed": 56,
+          "line_coverage_percentage": 33.33,
+          "branches_covered": 0,
+          "branches_missed": 19,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/StockHandlingWorker",
+          "lines_covered": 0,
+          "lines_missed": 24,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 16,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        }
+      ]
+    },
+    {
+      "pr_number": 1085,
+      "base_sha_full": "34405a4780bafe3d5c02b5b0904029a2280ff9b1",
+      "modified_files": [
+        {
+          "file_path": "com/futsch1/medtimer/reminders/scheduling/IntervalScheduling",
+          "lines_covered": 31,
+          "lines_missed": 1,
+          "line_coverage_percentage": 96.88,
+          "branches_covered": 15,
+          "branches_missed": 3,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/scheduling/WindowedIntervalScheduling",
+          "lines_covered": 34,
+          "lines_missed": 2,
+          "line_coverage_percentage": 94.44,
+          "branches_covered": 16,
+          "branches_missed": 2,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        }
+      ]
+    },
+    {
+      "pr_number": 1149,
+      "base_sha_full": "c11b3ffb12077f3727fec2c9af2a21a522ecd335",
+      "modified_files": [
+        {
+          "file_path": "com/futsch1/medtimer/ActivityCodes",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/GenerateTestData",
+          "lines_covered": 0,
+          "lines_missed": 105,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 24,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/MedicineViewModel",
+          "lines_covered": 0,
+          "lines_missed": 91,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 52,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/OptionsMenu",
+          "lines_covered": 0,
+          "lines_missed": 163,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 28,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/ReminderNotificationChannelManager",
+          "lines_covered": 9,
+          "lines_missed": 15,
+          "line_coverage_percentage": 37.5,
+          "branches_covered": 1,
+          "branches_missed": 7,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/alarm/AlarmFragment",
+          "lines_covered": 0,
+          "lines_missed": 57,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 2,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/database/FullMedicine",
+          "lines_covered": 1,
+          "lines_missed": 7,
+          "line_coverage_percentage": 12.5,
+          "branches_covered": 0,
+          "branches_missed": 10,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/database/JSONBackup",
+          "lines_covered": 31,
+          "lines_missed": 4,
+          "line_coverage_percentage": 88.57,
+          "branches_covered": 11,
+          "branches_missed": 5,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/database/JSONReminderEventBackup",
+          "lines_covered": 5,
+          "lines_missed": 3,
+          "line_coverage_percentage": 62.5,
+          "branches_covered": 2,
+          "branches_missed": 2,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/database/Medicine",
+          "lines_covered": 31,
+          "lines_missed": 1,
+          "line_coverage_percentage": 96.88,
+          "branches_covered": 23,
+          "branches_missed": 17,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/database/MedicineDao",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/database/MedicineRepository",
+          "lines_covered": 10,
+          "lines_missed": 100,
+          "line_coverage_percentage": 9.09,
+          "branches_covered": 0,
+          "branches_missed": 14,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/database/MedicineRoomDatabase",
+          "lines_covered": 15,
+          "lines_missed": 13,
+          "line_coverage_percentage": 53.57,
+          "branches_covered": 2,
+          "branches_missed": 2,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/database/Reminder",
+          "lines_covered": 40,
+          "lines_missed": 1,
+          "line_coverage_percentage": 97.56,
+          "branches_covered": 34,
+          "branches_missed": 24,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/database/ReminderEvent",
+          "lines_covered": 23,
+          "lines_missed": 8,
+          "line_coverage_percentage": 74.19,
+          "branches_covered": 0,
+          "branches_missed": 38,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/exporters/CSVMedicineExport",
+          "lines_covered": 19,
+          "lines_missed": 5,
+          "line_coverage_percentage": 79.17,
+          "branches_covered": 6,
+          "branches_missed": 2,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/exporters/Common",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/exporters/PDFMedicineExport",
+          "lines_covered": 0,
+          "lines_missed": 23,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 10,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/helpers/DatabaseEntityEditFragment",
+          "lines_covered": 0,
+          "lines_missed": 51,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 14,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/helpers/DialogHelper",
+          "lines_covered": 0,
+          "lines_missed": 55,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 18,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/helpers/EntityPreferencesFragment",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/helpers/MedicineHelper",
+          "lines_covered": 38,
+          "lines_missed": 1,
+          "line_coverage_percentage": 97.44,
+          "branches_covered": 16,
+          "branches_missed": 4,
+          "has_corresponding_test_file": true,
+          "test_file_path": "app/src/test/java/com/futsch1/medtimer/MedicineHelperTest.kt"
+        },
+        {
+          "file_path": "com/futsch1/medtimer/helpers/ReminderHelper",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": true,
+          "test_file_path": "app/src/test/java/com/futsch1/medtimer/ReminderHelperTest.kt"
+        },
+        {
+          "file_path": "com/futsch1/medtimer/helpers/SummaryHelper",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/helpers/TimeHelper",
+          "lines_covered": 54,
+          "lines_missed": 75,
+          "line_coverage_percentage": 41.86,
+          "branches_covered": 14,
+          "branches_missed": 20,
+          "has_corresponding_test_file": true,
+          "test_file_path": "app/src/test/java/com/futsch1/medtimer/TimeHelperTest.kt"
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/EditMedicineFragment",
+          "lines_covered": 0,
+          "lines_missed": 151,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 16,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/EstimateStockRunOutDate",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/LinkedReminderHandling",
+          "lines_covered": 0,
+          "lines_missed": 43,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 2,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/MedicineStockFragment",
+          "lines_covered": 0,
+          "lines_missed": 74,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 26,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/MedicineViewHolder",
+          "lines_covered": 0,
+          "lines_missed": 57,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 8,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/ReminderViewAdapter",
+          "lines_covered": 0,
+          "lines_missed": 14,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 2,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/ReminderViewHolder",
+          "lines_covered": 0,
+          "lines_missed": 83,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 16,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/advancedReminderPreferences/AdvancedReminderPreferencesCyclicFragment",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/advancedReminderPreferences/AdvancedReminderPreferencesFragment",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/advancedReminderPreferences/AdvancedReminderPreferencesInstructionsFragment",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/advancedReminderPreferences/AdvancedReminderPreferencesRootFragment",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/advancedReminderPreferences/AdvancedReminderPreferencesStatusFragment",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/advancedReminderPreferences/AdvancedReminderPreferencesStock",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/advancedReminderPreferences/AdvancedReminderSettingsMenuProvider",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/advancedReminderPreferences/EditIntervalDialog",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/advancedReminderPreferences/ReminderDataStore",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/advancedReminderPreferences/ReminderViewModel",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/advancedSettings/ReminderDataStore",
+          "lines_covered": 0,
+          "lines_missed": 93,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 97,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/advancedSettings/ReminderViewModel",
+          "lines_covered": 0,
+          "lines_missed": 3,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/dialogs/NewReminderDialog",
+          "lines_covered": 0,
+          "lines_missed": 106,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 28,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/dialogs/NewReminderStockDialog",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/dialogs/NewReminderTypeDialog",
+          "lines_covered": 0,
+          "lines_missed": 37,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 5,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/editMedicine/StockReminder",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/editors/IntervalEditor",
+          "lines_covered": 0,
+          "lines_missed": 48,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 22,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/stockSettings/MedicineDataStore",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/stockSettings/StockMedicineViewModel",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/stockSettings/StockSettingsFragment",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/overview/ManualDose",
+          "lines_covered": 0,
+          "lines_missed": 132,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 50,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/overview/NextReminders",
+          "lines_covered": 0,
+          "lines_missed": 34,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 4,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/overview/OverviewEvent",
+          "lines_covered": 0,
+          "lines_missed": 15,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 26,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/overview/OverviewViewModel",
+          "lines_covered": 0,
+          "lines_missed": 52,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 50,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/overview/ReminderViewHolder",
+          "lines_covered": 0,
+          "lines_missed": 68,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 20,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/overview/actions/ActionsBase",
+          "lines_covered": 0,
+          "lines_missed": 28,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/overview/actions/ActionsFactory",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/overview/actions/ReminderEventActions",
+          "lines_covered": 0,
+          "lines_missed": 43,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 4,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/overview/actions/ScheduledReminderActions",
+          "lines_covered": 0,
+          "lines_missed": 50,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 4,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/overview/actions/ScheduledStockReminderActions",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/overview/actions/StockEventActions",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/AcknowledgedWorker",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/NotificationProcessor",
+          "lines_covered": 44,
+          "lines_missed": 14,
+          "line_coverage_percentage": 75.86,
+          "branches_covered": 17,
+          "branches_missed": 17,
+          "has_corresponding_test_file": true,
+          "test_file_path": "app/src/test/java/com/futsch1/medtimer/processortests/NotificationProcessorTest.kt"
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/Notifications",
+          "lines_covered": 22,
+          "lines_missed": 5,
+          "line_coverage_percentage": 81.48,
+          "branches_covered": 1,
+          "branches_missed": 1,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/RefillWorker",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/ReminderNotificationWorker",
+          "lines_covered": 57,
+          "lines_missed": 23,
+          "line_coverage_percentage": 71.25,
+          "branches_covered": 19,
+          "branches_missed": 17,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/ReminderWorkerReceiver",
+          "lines_covered": 28,
+          "lines_missed": 68,
+          "line_coverage_percentage": 29.17,
+          "branches_covered": 0,
+          "branches_missed": 23,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/ScheduleNextReminderNotificationWorker",
+          "lines_covered": 0,
+          "lines_missed": 20,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 6,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/StockHandlingWorker",
+          "lines_covered": 0,
+          "lines_missed": 24,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 14,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/WorkerIntents",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/notificationData/ReminderNotification",
+          "lines_covered": 45,
+          "lines_missed": 2,
+          "line_coverage_percentage": 95.74,
+          "branches_covered": 17,
+          "branches_missed": 7,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/notificationData/ReminderNotificationData",
+          "lines_covered": 52,
+          "lines_missed": 31,
+          "line_coverage_percentage": 62.65,
+          "branches_covered": 8,
+          "branches_missed": 14,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/notificationFactory/BigReminderNotificationFactory",
+          "lines_covered": 22,
+          "lines_missed": 0,
+          "line_coverage_percentage": 100.0,
+          "branches_covered": 1,
+          "branches_missed": 1,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/notificationFactory/ExpirationDateNotificationFactory",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/notificationFactory/NotificationStringBuilder",
+          "lines_covered": 36,
+          "lines_missed": 6,
+          "line_coverage_percentage": 85.71,
+          "branches_covered": 13,
+          "branches_missed": 11,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/notificationFactory/OutOfStockNotificationFactory",
+          "lines_covered": 0,
+          "lines_missed": 16,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/notificationFactory/ReminderNotificationFactory",
+          "lines_covered": 41,
+          "lines_missed": 21,
+          "line_coverage_percentage": 66.13,
+          "branches_covered": 6,
+          "branches_missed": 8,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/notificationFactory/StockIntentBuilder",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/scheduling/ExpirationDateScheduling",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/scheduling/IntervalScheduling",
+          "lines_covered": 37,
+          "lines_missed": 0,
+          "line_coverage_percentage": 100.0,
+          "branches_covered": 22,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/scheduling/LinkedScheduling",
+          "lines_covered": 14,
+          "lines_missed": 0,
+          "line_coverage_percentage": 100.0,
+          "branches_covered": 8,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/scheduling/OutOfStockScheduling",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/scheduling/ReminderScheduler",
+          "lines_covered": 18,
+          "lines_missed": 1,
+          "line_coverage_percentage": 94.74,
+          "branches_covered": 9,
+          "branches_missed": 1,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/scheduling/ScheduledReminder",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/scheduling/Scheduling",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/scheduling/SchedulingFactory",
+          "lines_covered": 7,
+          "lines_missed": 0,
+          "line_coverage_percentage": 100.0,
+          "branches_covered": 4,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/scheduling/SchedulingSimulator",
+          "lines_covered": 46,
+          "lines_missed": 0,
+          "line_coverage_percentage": 100.0,
+          "branches_covered": 23,
+          "branches_missed": 1,
+          "has_corresponding_test_file": true,
+          "test_file_path": "app/src/test/java/com/futsch1/medtimer/schedulertests/SchedulingSimulatorTest.kt"
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/scheduling/StandardScheduling",
+          "lines_covered": 72,
+          "lines_missed": 0,
+          "line_coverage_percentage": 100.0,
+          "branches_covered": 52,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/scheduling/WindowedIntervalScheduling",
+          "lines_covered": 37,
+          "lines_missed": 0,
+          "line_coverage_percentage": 100.0,
+          "branches_covered": 16,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/remindertable/ReminderTableFragment",
+          "lines_covered": 0,
+          "lines_missed": 28,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/statistics/CalendarEventsViewModel",
+          "lines_covered": 0,
+          "lines_missed": 73,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 46,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/statistics/StatisticsProvider",
+          "lines_covered": 0,
+          "lines_missed": 40,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 22,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/widgets/WidgetLineProvider",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        }
+      ]
+    },
+    {
+      "pr_number": 1150,
+      "base_sha_full": "2229ec5de54bf9852b409fdf2479137ba85d189d",
+      "modified_files": [
+        {
+          "file_path": "com/futsch1/medtimer/database/JSONBackup",
+          "lines_covered": 33,
+          "lines_missed": 2,
+          "line_coverage_percentage": 94.29,
+          "branches_covered": 11,
+          "branches_missed": 5,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/database/JSONMedicineBackup",
+          "lines_covered": 11,
+          "lines_missed": 24,
+          "line_coverage_percentage": 31.43,
+          "branches_covered": 6,
+          "branches_missed": 14,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/database/JSONReminderEventBackup",
+          "lines_covered": 5,
+          "lines_missed": 3,
+          "line_coverage_percentage": 62.5,
+          "branches_covered": 1,
+          "branches_missed": 1,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/database/MedicineDao",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/database/MedicineRepository",
+          "lines_covered": 5,
+          "lines_missed": 102,
+          "line_coverage_percentage": 4.67,
+          "branches_covered": 0,
+          "branches_missed": 12,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        }
+      ]
+    },
+    {
+      "pr_number": 1167,
+      "base_sha_full": "9a6441c1a27b9240250c666ed2a6f249658546d6",
+      "modified_files": [
+        {
+          "file_path": "com/futsch1/medtimer/helpers/ViewColorHelper",
+          "lines_covered": 0,
+          "lines_missed": 58,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 24,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/EditMedicineFragment",
+          "lines_covered": 0,
+          "lines_missed": 153,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 16,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/overview/OverviewFragment",
+          "lines_covered": 0,
+          "lines_missed": 68,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 10,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/overview/ReminderViewHolder",
+          "lines_covered": 0,
+          "lines_missed": 76,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 28,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/overview/RemindersViewAdapter",
+          "lines_covered": 0,
+          "lines_missed": 13,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 2,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/overview/actions/ActionsBase",
+          "lines_covered": 0,
+          "lines_missed": 38,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 10,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/overview/actions/ActionsFactory",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/overview/actions/ActionsMenu",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/overview/actions/ActionsView",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/overview/actions/MultipleActions",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/overview/actions/ReminderEventActions",
+          "lines_covered": 0,
+          "lines_missed": 43,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 4,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/overview/actions/ScheduledReminderActions",
+          "lines_covered": 0,
+          "lines_missed": 39,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 2,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/overview/actions/ScheduledStockReminderActions",
+          "lines_covered": 0,
+          "lines_missed": 27,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/overview/actions/StockEventActions",
+          "lines_covered": 0,
+          "lines_missed": 21,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 2,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        }
+      ]
+    },
+    {
+      "pr_number": 1182,
+      "base_sha_full": "bca5abff1b5790e365db6c66e1a4b756cae573ab",
+      "modified_files": [
+        {
+          "file_path": "com/futsch1/medtimer/ActivityCodes",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/Autostart",
+          "lines_covered": 0,
+          "lines_missed": 33,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 12,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/MainActivity",
+          "lines_covered": 0,
+          "lines_missed": 111,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 46,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/OptionsMenu",
+          "lines_covered": 0,
+          "lines_missed": 163,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 28,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/ReminderNotificationChannel",
+          "lines_covered": 17,
+          "lines_missed": 0,
+          "line_coverage_percentage": 100.0,
+          "branches_covered": 1,
+          "branches_missed": 1,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/ReminderNotificationChannelManager",
+          "lines_covered": 9,
+          "lines_missed": 15,
+          "line_coverage_percentage": 37.5,
+          "branches_covered": 1,
+          "branches_missed": 7,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/ReminderSchedulerService",
+          "lines_covered": 0,
+          "lines_missed": 20,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/WorkManagerAccess",
+          "lines_covered": 0,
+          "lines_missed": 10,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 2,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/alarm/AlarmFragment",
+          "lines_covered": 0,
+          "lines_missed": 57,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 2,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/alarm/ReminderAlarmActivity",
+          "lines_covered": 0,
+          "lines_missed": 81,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 28,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/database/FullMedicine",
+          "lines_covered": 4,
+          "lines_missed": 7,
+          "line_coverage_percentage": 36.36,
+          "branches_covered": 10,
+          "branches_missed": 14,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/database/MedicineRepository",
+          "lines_covered": 5,
+          "lines_missed": 104,
+          "line_coverage_percentage": 4.59,
+          "branches_covered": 0,
+          "branches_missed": 12,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/database/Reminder",
+          "lines_covered": 55,
+          "lines_missed": 26,
+          "line_coverage_percentage": 67.9,
+          "branches_covered": 47,
+          "branches_missed": 37,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/helpers/DatabaseEntityEditFragment",
+          "lines_covered": 0,
+          "lines_missed": 52,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 14,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/helpers/MedicineHelper",
+          "lines_covered": 56,
+          "lines_missed": 18,
+          "line_coverage_percentage": 75.68,
+          "branches_covered": 42,
+          "branches_missed": 16,
+          "has_corresponding_test_file": true,
+          "test_file_path": "app/src/test/java/com/futsch1/medtimer/MedicineHelperTest.kt"
+        },
+        {
+          "file_path": "com/futsch1/medtimer/helpers/TimeHelper",
+          "lines_covered": 52,
+          "lines_missed": 75,
+          "line_coverage_percentage": 40.94,
+          "branches_covered": 14,
+          "branches_missed": 20,
+          "has_corresponding_test_file": true,
+          "test_file_path": "app/src/test/java/com/futsch1/medtimer/TimeHelperTest.kt"
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/EstimateStockRunOutDate",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/stockSettings/MedicineDataStore",
+          "lines_covered": 0,
+          "lines_missed": 24,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 20,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/stockSettings/StockSettingsFragment",
+          "lines_covered": 0,
+          "lines_missed": 59,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 18,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/overview/CustomSnooze",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/overview/ManualDose",
+          "lines_covered": 0,
+          "lines_missed": 132,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 50,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/overview/NextReminders",
+          "lines_covered": 0,
+          "lines_missed": 34,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 4,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/overview/VariableAmount",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/overview/actions/ReminderEventActions",
+          "lines_covered": 0,
+          "lines_missed": 34,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 14,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/overview/actions/ScheduledReminderActions",
+          "lines_covered": 0,
+          "lines_missed": 33,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 8,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/overview/actions/ScheduledStockReminderActions",
+          "lines_covered": 0,
+          "lines_missed": 19,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 6,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/overview/actions/StockEventActions",
+          "lines_covered": 0,
+          "lines_missed": 12,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 5,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/preferences/PreferencesNames",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/preferences/WeekendModePreferencesFragment",
+          "lines_covered": 0,
+          "lines_missed": 38,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 8,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/AlarmProcessor",
+          "lines_covered": 44,
+          "lines_missed": 17,
+          "line_coverage_percentage": 72.13,
+          "branches_covered": 8,
+          "branches_missed": 8,
+          "has_corresponding_test_file": true,
+          "test_file_path": "app/src/test/java/com/futsch1/medtimer/processortests/AlarmProcessorTest.kt"
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/DebugReschedule",
+          "lines_covered": 5,
+          "lines_missed": 2,
+          "line_coverage_percentage": 71.43,
+          "branches_covered": 2,
+          "branches_missed": 4,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/NotificationAcknowledgedWorker",
+          "lines_covered": 0,
+          "lines_missed": 3,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/NotificationProcessor",
+          "lines_covered": 44,
+          "lines_missed": 14,
+          "line_coverage_percentage": 75.86,
+          "branches_covered": 15,
+          "branches_missed": 17,
+          "has_corresponding_test_file": true,
+          "test_file_path": "app/src/test/java/com/futsch1/medtimer/processortests/NotificationProcessorTest.kt"
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/NotificationSkippedWorker",
+          "lines_covered": 3,
+          "lines_missed": 0,
+          "line_coverage_percentage": 100.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/NotificationSoundManager",
+          "lines_covered": 1,
+          "lines_missed": 43,
+          "line_coverage_percentage": 2.27,
+          "branches_covered": 0,
+          "branches_missed": 20,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/NotificationTakenWorker",
+          "lines_covered": 3,
+          "lines_missed": 0,
+          "line_coverage_percentage": 100.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/Notifications",
+          "lines_covered": 21,
+          "lines_missed": 0,
+          "line_coverage_percentage": 100.0,
+          "branches_covered": 1,
+          "branches_missed": 1,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/RefillProcessor",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": true,
+          "test_file_path": "app/src/test/java/com/futsch1/medtimer/processortests/RefillProcessorTest.kt"
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/ReminderContext",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/ReminderNotificationProcessor",
+          "lines_covered": 53,
+          "lines_missed": 25,
+          "line_coverage_percentage": 67.95,
+          "branches_covered": 20,
+          "branches_missed": 19,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/ReminderNotificationWorker",
+          "lines_covered": 10,
+          "lines_missed": 0,
+          "line_coverage_percentage": 100.0,
+          "branches_covered": 2,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/ReminderProcessorBroadcastReceiver",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/ReminderWorkerReceiver",
+          "lines_covered": 29,
+          "lines_missed": 95,
+          "line_coverage_percentage": 23.39,
+          "branches_covered": 0,
+          "branches_missed": 16,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/RemoteInputReceiver",
+          "lines_covered": 0,
+          "lines_missed": 46,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 19,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/RepeatProcessor",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": true,
+          "test_file_path": "app/src/test/java/com/futsch1/medtimer/processortests/RepeatProcessorTest.kt"
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/RepeatWorker",
+          "lines_covered": 16,
+          "lines_missed": 0,
+          "line_coverage_percentage": 100.0,
+          "branches_covered": 3,
+          "branches_missed": 1,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/ScheduleNextReminderNotificationProcessor",
+          "lines_covered": 0,
+          "lines_missed": 23,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 6,
+          "has_corresponding_test_file": true,
+          "test_file_path": "app/src/test/java/com/futsch1/medtimer/processortests/ScheduleNextReminderNotificationProcessorTest.kt"
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/ScheduleNextReminderNotificationWorker",
+          "lines_covered": 0,
+          "lines_missed": 3,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/ShowReminderNotificationProcessor",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": true,
+          "test_file_path": "app/src/test/java/com/futsch1/medtimer/processortests/ShowReminderNotificationProcessorTest.kt"
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/SnoozeProcessor",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/SnoozeWorker",
+          "lines_covered": 10,
+          "lines_missed": 0,
+          "line_coverage_percentage": 100.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/StockHandlingProcessor",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/WorkerIntents",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/notificationData/ProcessedNotificationData",
+          "lines_covered": 8,
+          "lines_missed": 4,
+          "line_coverage_percentage": 66.67,
+          "branches_covered": 0,
+          "branches_missed": 2,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/notificationData/ReminderNotification",
+          "lines_covered": 48,
+          "lines_missed": 2,
+          "line_coverage_percentage": 96.0,
+          "branches_covered": 21,
+          "branches_missed": 11,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/notificationData/ReminderNotificationData",
+          "lines_covered": 52,
+          "lines_missed": 31,
+          "line_coverage_percentage": 62.65,
+          "branches_covered": 8,
+          "branches_missed": 14,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/notificationData/ReminderNotificationPart",
+          "lines_covered": 1,
+          "lines_missed": 0,
+          "line_coverage_percentage": 100.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/notificationFactory/BigReminderNotificationFactory",
+          "lines_covered": 23,
+          "lines_missed": 0,
+          "line_coverage_percentage": 100.0,
+          "branches_covered": 1,
+          "branches_missed": 1,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/notificationFactory/ExpirationDateNotificationFactory",
+          "lines_covered": 0,
+          "lines_missed": 25,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/notificationFactory/NotificationFactory",
+          "lines_covered": 39,
+          "lines_missed": 3,
+          "line_coverage_percentage": 92.86,
+          "branches_covered": 22,
+          "branches_missed": 8,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/notificationFactory/NotificationIntentBuilder",
+          "lines_covered": 38,
+          "lines_missed": 45,
+          "line_coverage_percentage": 45.78,
+          "branches_covered": 5,
+          "branches_missed": 10,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/notificationFactory/NotificationStringBuilder",
+          "lines_covered": 32,
+          "lines_missed": 6,
+          "line_coverage_percentage": 84.21,
+          "branches_covered": 14,
+          "branches_missed": 12,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/notificationFactory/OutOfStockNotificationFactory",
+          "lines_covered": 0,
+          "lines_missed": 29,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/notificationFactory/ReminderNotificationFactory",
+          "lines_covered": 42,
+          "lines_missed": 21,
+          "line_coverage_percentage": 66.67,
+          "branches_covered": 6,
+          "branches_missed": 8,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/notificationFactory/SimpleReminderNotificationFactory",
+          "lines_covered": 0,
+          "lines_missed": 9,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/notificationFactory/StockIntentBuilder",
+          "lines_covered": 0,
+          "lines_missed": 17,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/scheduling/ExpirationDateScheduling",
+          "lines_covered": 16,
+          "lines_missed": 0,
+          "line_coverage_percentage": 100.0,
+          "branches_covered": 11,
+          "branches_missed": 1,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/scheduling/IntervalScheduling",
+          "lines_covered": 35,
+          "lines_missed": 0,
+          "line_coverage_percentage": 100.0,
+          "branches_covered": 22,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/scheduling/LinkedScheduling",
+          "lines_covered": 13,
+          "lines_missed": 0,
+          "line_coverage_percentage": 100.0,
+          "branches_covered": 8,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/scheduling/OutOfStockScheduling",
+          "lines_covered": 6,
+          "lines_missed": 0,
+          "line_coverage_percentage": 100.0,
+          "branches_covered": 4,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/scheduling/ReminderScheduler",
+          "lines_covered": 12,
+          "lines_missed": 0,
+          "line_coverage_percentage": 100.0,
+          "branches_covered": 8,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/scheduling/Scheduling",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/scheduling/SchedulingFactory",
+          "lines_covered": 9,
+          "lines_missed": 1,
+          "line_coverage_percentage": 90.0,
+          "branches_covered": 6,
+          "branches_missed": 1,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/scheduling/SchedulingSimulator",
+          "lines_covered": 46,
+          "lines_missed": 0,
+          "line_coverage_percentage": 100.0,
+          "branches_covered": 24,
+          "branches_missed": 0,
+          "has_corresponding_test_file": true,
+          "test_file_path": "app/src/test/java/com/futsch1/medtimer/schedulertests/SchedulingSimulatorTest.kt"
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/scheduling/StandardScheduling",
+          "lines_covered": 55,
+          "lines_missed": 0,
+          "line_coverage_percentage": 100.0,
+          "branches_covered": 44,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/scheduling/WeekendModeSchedulingDecorator",
+          "lines_covered": 17,
+          "lines_missed": 0,
+          "line_coverage_percentage": 100.0,
+          "branches_covered": 7,
+          "branches_missed": 1,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/scheduling/WindowedIntervalScheduling",
+          "lines_covered": 34,
+          "lines_missed": 0,
+          "line_coverage_percentage": 100.0,
+          "branches_covered": 16,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/statistics/CalendarEventsViewModel",
+          "lines_covered": 0,
+          "lines_missed": 73,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 46,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/widgets/WidgetLineProvider",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        }
+      ]
+    },
+    {
+      "pr_number": 1193,
+      "base_sha_full": "c500b181d9198cd7bf333db84dad86d77b3c1845",
+      "modified_files": [
+        {
+          "file_path": "com/futsch1/medtimer/BackupManager",
+          "lines_covered": 0,
+          "lines_missed": 92,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 30,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/OptionsMenu",
+          "lines_covered": 0,
+          "lines_missed": 163,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 28,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/exporters/CSVEventExport",
+          "lines_covered": 21,
+          "lines_missed": 4,
+          "line_coverage_percentage": 84.0,
+          "branches_covered": 6,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/exporters/CSVMedicineExport",
+          "lines_covered": 20,
+          "lines_missed": 6,
+          "line_coverage_percentage": 76.92,
+          "branches_covered": 7,
+          "branches_missed": 3,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/exporters/Export",
+          "lines_covered": 3,
+          "lines_missed": 6,
+          "line_coverage_percentage": 33.33,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/exporters/PDFEventExport",
+          "lines_covered": 0,
+          "lines_missed": 42,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 8,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/exporters/PDFMedicineExport",
+          "lines_covered": 0,
+          "lines_missed": 25,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 12,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/helpers/DatabaseEntityEditFragment",
+          "lines_covered": 0,
+          "lines_missed": 52,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 14,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/helpers/EntityPreferencesFragment",
+          "lines_covered": 0,
+          "lines_missed": 57,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 12,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/helpers/PathHelper",
+          "lines_covered": 0,
+          "lines_missed": 4,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/helpers/TableHelper",
+          "lines_covered": 16,
+          "lines_missed": 6,
+          "line_coverage_percentage": 72.73,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/helpers/TimeHelper",
+          "lines_covered": 55,
+          "lines_missed": 75,
+          "line_coverage_percentage": 42.31,
+          "branches_covered": 15,
+          "branches_missed": 19,
+          "has_corresponding_test_file": true,
+          "test_file_path": "app/src/test/java/com/futsch1/medtimer/TimeHelperTest.kt"
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/EditMedicineFragment",
+          "lines_covered": 0,
+          "lines_missed": 153,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 16,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/EditMedicineMenuProvider",
+          "lines_covered": 0,
+          "lines_missed": 35,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 2,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/EditMedicineSubmenus",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/MedicinesFragment",
+          "lines_covered": 0,
+          "lines_missed": 83,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 6,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/advancedReminderPreferences/AdvancedReminderPreferencesStock",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/advancedReminderPreferences/AdvancedReminderSettingsMenuProvider",
+          "lines_covered": 0,
+          "lines_missed": 15,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 2,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/advancedReminderPreferences/ReminderDataStore",
+          "lines_covered": 0,
+          "lines_missed": 98,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 119,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/dialogs/NewReminderDialog",
+          "lines_covered": 0,
+          "lines_missed": 107,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 28,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/dialogs/NewReminderStockDialog",
+          "lines_covered": 0,
+          "lines_missed": 95,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 24,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/dialogs/NewReminderTypeDialog",
+          "lines_covered": 0,
+          "lines_missed": 50,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 14,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/dialogs/NotesDialog",
+          "lines_covered": 0,
+          "lines_missed": 22,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 2,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/stockSettings/MedicineDataStore",
+          "lines_covered": 0,
+          "lines_missed": 24,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 20,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/stockSettings/StockSettingsFragment",
+          "lines_covered": 0,
+          "lines_missed": 59,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 18,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/overview/ShowMedicineSheetDialog",
+          "lines_covered": 0,
+          "lines_missed": 36,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 28,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/preferences/PreferencesNames",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/preferences/RepeatRemindersPreferencesFragment",
+          "lines_covered": 0,
+          "lines_missed": 3,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/preferences/WeekendModePreferencesFragment",
+          "lines_covered": 0,
+          "lines_missed": 38,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 8,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/ReminderNotificationProcessor",
+          "lines_covered": 32,
+          "lines_missed": 44,
+          "line_coverage_percentage": 42.11,
+          "branches_covered": 12,
+          "branches_missed": 27,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/statistics/StatisticsFragment",
+          "lines_covered": 0,
+          "lines_missed": 70,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 18,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        }
+      ]
+    },
+    {
+      "pr_number": 1279,
+      "base_sha_full": "a83c73e406f133d9db2efb99f6cb8cebb6a1abf8",
+      "modified_files": [
+        {
+          "file_path": "com/futsch1/medtimer/Autostart",
+          "lines_covered": 1,
+          "lines_missed": 32,
+          "line_coverage_percentage": 3.03,
+          "branches_covered": 0,
+          "branches_missed": 12,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/BackupManager",
+          "lines_covered": 0,
+          "lines_missed": 204,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 86,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/GenerateTestData",
+          "lines_covered": 0,
+          "lines_missed": 124,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 22,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/LogTags",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/MedTimerAppIntro",
+          "lines_covered": 0,
+          "lines_missed": 79,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 4,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/OnFragmentReselectedListener",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/OptionsMenu",
+          "lines_covered": 0,
+          "lines_missed": 191,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 32,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/ReminderSchedulerService",
+          "lines_covered": 0,
+          "lines_missed": 20,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/database/Converters",
+          "lines_covered": 0,
+          "lines_missed": 18,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/database/FullMedicine",
+          "lines_covered": 4,
+          "lines_missed": 7,
+          "line_coverage_percentage": 36.36,
+          "branches_covered": 10,
+          "branches_missed": 14,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/database/JSONBackup",
+          "lines_covered": 31,
+          "lines_missed": 6,
+          "line_coverage_percentage": 83.78,
+          "branches_covered": 12,
+          "branches_missed": 6,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/database/JSONMedicineBackup",
+          "lines_covered": 10,
+          "lines_missed": 23,
+          "line_coverage_percentage": 30.3,
+          "branches_covered": 6,
+          "branches_missed": 18,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/database/Medicine",
+          "lines_covered": 28,
+          "lines_missed": 1,
+          "line_coverage_percentage": 96.55,
+          "branches_covered": 19,
+          "branches_missed": 17,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/database/MedicineDao",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/database/MedicineRepository",
+          "lines_covered": 0,
+          "lines_missed": 110,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 18,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/database/MedicineRoomDatabase",
+          "lines_covered": 0,
+          "lines_missed": 29,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 4,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/database/MedicineToTag",
+          "lines_covered": 0,
+          "lines_missed": 4,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/database/Reminder",
+          "lines_covered": 51,
+          "lines_missed": 26,
+          "line_coverage_percentage": 66.23,
+          "branches_covered": 47,
+          "branches_missed": 37,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/database/ReminderEvent",
+          "lines_covered": 12,
+          "lines_missed": 27,
+          "line_coverage_percentage": 30.77,
+          "branches_covered": 0,
+          "branches_missed": 46,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/database/Tag",
+          "lines_covered": 5,
+          "lines_missed": 5,
+          "line_coverage_percentage": 50.0,
+          "branches_covered": 0,
+          "branches_missed": 10,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/helpers/ContextExtensions",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/helpers/DeleteHelper",
+          "lines_covered": 0,
+          "lines_missed": 13,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 2,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/helpers/FileHelper",
+          "lines_covered": 0,
+          "lines_missed": 30,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 6,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/helpers/IdlingListAdapter",
+          "lines_covered": 0,
+          "lines_missed": 14,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/helpers/MedicineIcons",
+          "lines_covered": 0,
+          "lines_missed": 44,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 26,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/helpers/ReminderHelper",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": true,
+          "test_file_path": "app/src/test/java/com/futsch1/medtimer/ReminderHelperTest.kt"
+        },
+        {
+          "file_path": "com/futsch1/medtimer/helpers/ResourcesExtensions",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/helpers/SummaryHelper",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/helpers/SwipeHelper",
+          "lines_covered": 0,
+          "lines_missed": 74,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 30,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/helpers/TimeHelper",
+          "lines_covered": 68,
+          "lines_missed": 84,
+          "line_coverage_percentage": 44.74,
+          "branches_covered": 15,
+          "branches_missed": 19,
+          "has_corresponding_test_file": true,
+          "test_file_path": "app/src/test/java/com/futsch1/medtimer/TimeHelperTest.kt"
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/EditMedicineFragment",
+          "lines_covered": 0,
+          "lines_missed": 141,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 16,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/EditMedicineMenuProvider",
+          "lines_covered": 0,
+          "lines_missed": 76,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 6,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/LinkedReminderHandling",
+          "lines_covered": 0,
+          "lines_missed": 43,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 2,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/MedicineViewAdapter",
+          "lines_covered": 0,
+          "lines_missed": 25,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 6,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/MedicinesFragment",
+          "lines_covered": 0,
+          "lines_missed": 83,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 6,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/ReminderViewAdapter",
+          "lines_covered": 0,
+          "lines_missed": 14,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 2,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/ReminderViewHolder",
+          "lines_covered": 0,
+          "lines_missed": 99,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 25,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/stockSettings/StockMedicineViewModel",
+          "lines_covered": 0,
+          "lines_missed": 3,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/tags/MedicineWithTagsViewModel",
+          "lines_covered": 0,
+          "lines_missed": 9,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/medicine/tags/TagDataFromMedicine",
+          "lines_covered": 0,
+          "lines_missed": 35,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 2,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/overview/EditEventSheetDialog",
+          "lines_covered": 0,
+          "lines_missed": 110,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 29,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/overview/ShowMedicineSheetDialog",
+          "lines_covered": 0,
+          "lines_missed": 35,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 26,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/overview/VariableAmount",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/overview/actions/ActionsFactory",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/overview/actions/ReminderEventActions",
+          "lines_covered": 0,
+          "lines_missed": 49,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 16,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/ReminderContext",
+          "lines_covered": 1,
+          "lines_missed": 28,
+          "line_coverage_percentage": 3.45,
+          "branches_covered": 0,
+          "branches_missed": 2,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/ReminderNotificationProcessor",
+          "lines_covered": 33,
+          "lines_missed": 45,
+          "line_coverage_percentage": 42.31,
+          "branches_covered": 12,
+          "branches_missed": 27,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/RemoteInputReceiver",
+          "lines_covered": 1,
+          "lines_missed": 45,
+          "line_coverage_percentage": 2.17,
+          "branches_covered": 0,
+          "branches_missed": 19,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/notificationData/ReminderNotificationData",
+          "lines_covered": 55,
+          "lines_missed": 7,
+          "line_coverage_percentage": 88.71,
+          "branches_covered": 19,
+          "branches_missed": 3,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/scheduling/CyclesHelper",
+          "lines_covered": 0,
+          "lines_missed": 6,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 4,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/reminders/scheduling/ScheduledReminder",
+          "lines_covered": 1,
+          "lines_missed": 0,
+          "line_coverage_percentage": 100.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/remindertable/ReminderTableAdapter",
+          "lines_covered": 0,
+          "lines_missed": 52,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 13,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/remindertable/ReminderTableCellModel",
+          "lines_covered": 0,
+          "lines_missed": 13,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/remindertable/ReminderTableCellViewHolder",
+          "lines_covered": 0,
+          "lines_missed": 13,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 2,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/remindertable/ReminderTableColumnHeaderViewHolder",
+          "lines_covered": 0,
+          "lines_missed": 37,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 12,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/remindertable/ReminderTableFragment",
+          "lines_covered": 0,
+          "lines_missed": 32,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 4,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/statistics/ActiveStatisticsFragment",
+          "lines_covered": 0,
+          "lines_missed": 11,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/statistics/AnalysisDays",
+          "lines_covered": 0,
+          "lines_missed": 8,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/statistics/CalendarFragment",
+          "lines_covered": 0,
+          "lines_missed": 129,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 36,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/statistics/ChartHelper",
+          "lines_covered": 0,
+          "lines_missed": 7,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/statistics/ChartsFragment",
+          "lines_covered": 0,
+          "lines_missed": 44,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 2,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/statistics/MedicinePerDayChart",
+          "lines_covered": 0,
+          "lines_missed": 114,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 28,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/statistics/StatisticsFragment",
+          "lines_covered": 0,
+          "lines_missed": 73,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 20,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/statistics/StatisticsProvider",
+          "lines_covered": 0,
+          "lines_missed": 40,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 22,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/statistics/TakenSkippedChart",
+          "lines_covered": 0,
+          "lines_missed": 31,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 4,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        },
+        {
+          "file_path": "com/futsch1/medtimer/widgets/WidgetLineProvider",
+          "lines_covered": 0,
+          "lines_missed": 0,
+          "line_coverage_percentage": 0.0,
+          "branches_covered": 0,
+          "branches_missed": 0,
+          "has_corresponding_test_file": false,
+          "test_file_path": null
+        }
+      ]
+    }
+  ]
+}
