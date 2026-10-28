@@ -3,13 +3,49 @@ FROM mingc/android-build-box:latest
 ENV JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64
 ENV ANDROID_HOME=/opt/android-sdk
 ENV PATH=${PATH}:${ANDROID_HOME}/cmdline-tools/latest/bin:${ANDROID_HOME}/platform-tools
-
-RUN yes | sdkmanager --licenses > /dev/null 2>&1 || true
+ENV NODE_ENV=development
+ENV TZ=UTC
 
 RUN apt-get update && apt-get install -y \
     python3 \
     python-is-python3 \
     git \
+    maven \
+    curl \
+    ca-certificates \
     && rm -rf /var/lib/apt/lists/*
+
+RUN yes | sdkmanager --licenses > /dev/null 2>&1 || true
+RUN sdkmanager --install "cmake;4.1.2"
+RUN set -eux; \
+    curl -fsSL --retry 3 \
+      'https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jdk_x64_linux_hotspot_25.0.4.1_1.tar.gz' \
+      -o /tmp/temurin-25.tar.gz; \
+    echo 'dbb698396d478e7fa2b1e50f4103324b2a99b90569ee27c33f2261f9215cf41e  /tmp/temurin-25.tar.gz' | sha256sum -c -; \
+    mkdir -p /opt/jdks/temurin-25; \
+    tar -xzf /tmp/temurin-25.tar.gz -C /opt/jdks/temurin-25 --strip-components=1; \
+    ln -s /opt/jdks/temurin-25 /usr/lib/jvm/java-25-openjdk-amd64; \
+    rm /tmp/temurin-25.tar.gz
+RUN set -eux; \
+    curl -fsSL --retry 3 \
+      'https://cache-redirector.jetbrains.com/intellij-jbr/jbrsdk-21.0.11-linux-x64-b1163.116.tar.gz' \
+      -o /tmp/jbr-21.tar.gz; \
+    echo '13d0aab4bcfa9e4f77a696b97d3998f7e82e22f7f1362d8ce97f0d50d69dddd9331a66ada3fe92c04e544795fc247bcbaf586ad0415df4eda5e0e0505753888f  /tmp/jbr-21.tar.gz' | sha512sum -c -; \
+    mkdir -p /opt/jdks/jbr-21; \
+    tar -xzf /tmp/jbr-21.tar.gz -C /opt/jdks/jbr-21 --strip-components=1; \
+    rm /tmp/jbr-21.tar.gz
+RUN test -x /usr/lib/jvm/java-8-openjdk-amd64/bin/java \
+    && test -x /usr/lib/jvm/java-11-openjdk-amd64/bin/java \
+    && test -x /usr/lib/jvm/java-17-openjdk-amd64/bin/java \
+    && test -x /usr/lib/jvm/java-21-openjdk-amd64/bin/java \
+    && test -x /usr/lib/jvm/java-25-openjdk-amd64/bin/java \
+    && test -x /opt/jdks/jbr-21/bin/java \
+    && /usr/lib/jvm/java-25-openjdk-amd64/bin/java -version \
+    && /opt/jdks/jbr-21/bin/java -version
+  RUN mkdir -p /root/.gradle && printf '%s\n' \
+    'org.gradle.java.installations.paths=/usr/lib/jvm/java-25-openjdk-amd64,/opt/jdks/jbr-21' \
+    'org.gradle.jvmargs=-Xmx8g -XX:MaxMetaspaceSize=2g -Dkotlin.daemon.jvm.options=-Xmx4g,Xms512m,XX:MaxMetaspaceSize=2g' \
+    'org.gradle.workers.max=2' \
+    > /root/.gradle/gradle.properties
 
 WORKDIR /workspace
